@@ -58,7 +58,7 @@ This project presents a complete hierarchical network design tailored to a mid-s
 
 You can download and explore the full `.pkt` file:
 
-🔗 [`ABC-Bank-Network.pkt`](ABC-Bank-Network.pkt)
+🔗 [`ABC-Bank-Network.pkt`](https://github.com/SaraArif6198/Bank-Network-Project/blob/main/Bank%20Network.pkt)
 
 
 ## ✅ Results
@@ -81,7 +81,7 @@ You can download and explore the full `.pkt` file:
 
 **Sara Arif**  
 🎓 Computer Science Student | Aspiring Network Engineer & Data Analyst  
-🌐 [GitHub](https://github.com/SaraArif6198) | 💼 [LinkedIn](https://www.linkedin.com/in/saraarif6198)
+🌐 [GitHub](https://github.com/SaraArif6198) | 💼 [LinkedIn](https://www.linkedin.com/in/sara-arif-7922642b8/)
 
 ## 📌 License
 
