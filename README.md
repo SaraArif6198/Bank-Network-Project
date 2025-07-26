@@ -51,6 +51,46 @@ This project presents a complete hierarchical network design tailored to a mid-s
 |                  | Server Room           | 2 Admin PCs | 0       | DHCP, HTTP, Email    |
 
 
+## 🌐 Floor-wise IP Addressing & Subnetting Plan
+
+Each department has been allocated a dedicated `/26` subnet for isolation, scalability, and simplified inter-VLAN routing. Below is a detailed breakdown:
+
+### 🏢 First Floor
+
+| Department       | Network Address | Subnet Mask              | Host IP Range               | Broadcast Address |
+|------------------|------------------|---------------------------|------------------------------|-------------------|
+| Management       | 192.168.10.0     | 255.255.255.192 (/26)     | 192.168.10.1 – 192.168.10.62 | 192.168.10.63     |
+| Research         | 192.168.10.64    | 255.255.255.192 (/26)     | 192.168.10.65 – 192.168.10.126 | 192.168.10.127   |
+| Human Resource   | 192.168.10.128   | 255.255.255.192 (/26)     | 192.168.10.129 – 192.168.10.190 | 192.168.10.191   |
+
+
+### 🏢 Second Floor
+
+| Department  | Network Address | Subnet Mask              | Host IP Range               | Broadcast Address |
+|-------------|------------------|---------------------------|------------------------------|-------------------|
+| Marketing   | 192.168.10.192   | 255.255.255.192 (/26)     | 192.168.10.193 – 192.168.10.254 | 192.168.10.255   |
+| Accounts    | 192.168.11.0     | 255.255.255.192 (/26)     | 192.168.11.1 – 192.168.11.62 | 192.168.11.63     |
+| Finance     | 192.168.11.64    | 255.255.255.192 (/26)     | 192.168.11.65 – 192.168.11.126 | 192.168.11.127   |
+
+
+### 🏢 Third Floor
+
+| Department        | Network Address | Subnet Mask              | Host IP Range               | Broadcast Address |
+|-------------------|------------------|---------------------------|------------------------------|-------------------|
+| Logistics & Store | 192.168.11.128   | 255.255.255.192 (/26)     | 192.168.11.129 – 192.168.11.190 | 192.168.11.191   |
+| Customer Care     | 192.168.11.192   | 255.255.255.192 (/26)     | 192.168.11.193 – 192.168.11.254 | 192.168.11.255   |
+| Guest Area        | 192.168.12.0     | 255.255.255.192 (/26)     | 192.168.12.1 – 192.168.12.62 | 192.168.12.63     |
+
+
+### 🏢 Fourth Floor
+
+| Department     | Network Address  | Subnet Mask              | Host IP Range                | Broadcast Address |
+|----------------|-------------------|---------------------------|-------------------------------|-------------------|
+| Administration | 192.168.12.64     | 255.255.255.192 (/26)     | 192.168.12.65 – 192.168.12.126 | 192.168.12.127   |
+| ICT            | 192.168.12.128    | 255.255.255.192 (/26)     | 192.168.12.129 – 192.168.12.190 | 192.168.12.191   |
+| Server Room    | 192.168.12.192    | 255.255.255.192 (/26)     | 192.168.12.193 – 192.168.12.254 | 192.168.12.255   |
+
+
 ## 🛠 Configuration Summary
 
 | Configuration Area     | Description |
@@ -104,9 +144,4 @@ You can download and explore the full `.pkt` file:
 
 This project is for **educational and demonstration purposes**. All configurations are simulated using Cisco Packet Tracer.
 
----
-
-## 💡 Let's Connect!
-
-Feel free to connect if you're working on Cisco Packet Tracer projects, networking labs, or real-world simulations!
 
