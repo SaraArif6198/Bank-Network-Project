@@ -33,6 +33,23 @@ This project presents a complete hierarchical network design tailored to a mid-s
 - 🛠️ **Static IP assignment** for server room devices
 - ✅ End-to-end **Connectivity Testing & Verification**
 
+## 🏢 Floor-wise Department Distribution
+
+| 🏢 Floor         | 🏬 Department         | 🖥 PCs | 🖨 Printers | 🗄️ Servers           |
+|------------------|-----------------------|--------|--------------|----------------------|
+| **1st Floor**    | Management            | 20     | 4            | -                    |
+|                  | Research              | 20     | 4            | -                    |
+|                  | Human Resource        | 20     | 4            | -                    |
+| **2nd Floor**    | Marketing             | 20     | 4            | -                    |
+|                  | Accounting            | 20     | 4            | -                    |
+|                  | Finance               | 20     | 4            | -                    |
+| **3rd Floor**    | Logistics & Store     | 20     | 4            | -                    |
+|                  | Customer Care         | 20     | 4            | -                    |
+|                  | Guest Area            | 40     | 2            | -                    |
+| **4th Floor**    | Administration        | 20     | 2            | -                    |
+|                  | ICT                   | 20     | 2            | -                    |
+|                  | Server Room           | 2 Admin PCs | 0       | DHCP, HTTP, Email    |
+
 
 ## 🛠 Configuration Summary
 
